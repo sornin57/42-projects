@@ -24,11 +24,59 @@ jobs:
         run: python -m pip install --upgrade norminette
 
       - name: Run norminette
-        working-directory: cercle-00/libft
+        working-directory: C/cercle-00/libft
         run: norminette .
 
       - name: Build libft
-        working-directory: cercle-00/libft
+        working-directory: C/cercle-00/libft
+        run: make
+
+  get-next-line:
+    name: get_next_line norminette and build
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install norminette
+        run: python -m pip install --upgrade norminette
+
+      - name: Run norminette
+        working-directory: C/cercle-01/get_next_line
+        run: norminette get_next_line.c get_next_line_utils.c get_next_line.h
+
+      - name: Compile get_next_line
+        working-directory: C/cercle-01/get_next_line
+        run: cc -Wall -Wextra -Werror -D BUFFER_SIZE=42 -c get_next_line.c get_next_line_utils.c
+
+  ft-printf:
+    name: ft_printf norminette and build
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install norminette
+        run: python -m pip install --upgrade norminette
+
+      - name: Run norminette
+        working-directory: C/cercle-01/ft_printf
+        run: norminette .
+
+      - name: Build ft_printf
+        working-directory: C/cercle-01/ft_printf
         run: make
 
   call-me-maybe:
@@ -48,11 +96,11 @@ jobs:
         uses: astral-sh/setup-uv@v5
 
       - name: Install dependencies
-        working-directory: cercle-03/call-me-maybe
+        working-directory: Python/cercle-03/call-me-maybe
         run: uv sync --dev
 
       - name: Run tests
-        working-directory: cercle-03/call-me-maybe
+        working-directory: Python/cercle-03/call-me-maybe
         run: uv run pytest
 
   fly-in:
@@ -69,5 +117,5 @@ jobs:
           python-version: "3.11"
 
       - name: Run tests
-        working-directory: cercle-03/fly-in
+        working-directory: Python/cercle-03/fly-in
         run: python -m unittest discover -s tests
