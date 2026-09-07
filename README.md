@@ -7,8 +7,9 @@ Collection of 42 school projects by msornin, organized by circle.
 ## Circles
 
 - `cercle-00`
-  - `libft` - C library skeleton with Makefile and norminette CI.
-- `cercle-01` - Ready for future projects.
+  - `libft` - First custom C library with standard utility functions.
+- `cercle-01`
+  - `get_next_line` - C function that reads one line at a time from a file descriptor.
 - `cercle-02` - Ready for future projects.
 - `cercle-03`
   - `call-me-maybe` - Python project around an LLM-style workflow and file processing.
@@ -24,6 +25,7 @@ Collection of 42 school projects by msornin, organized by circle.
 ├── cercle-00/
 │   └── libft/
 ├── cercle-01/
+│   └── get_next_line/
 ├── cercle-02/
 ├── cercle-03/
 │   ├── call-me-maybe/

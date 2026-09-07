@@ -1,3 +1,7 @@
 # Cercle 01
 
-Ready for future 42 projects.
+Projects from circle 01.
+
+## Projects
+
+- `get_next_line` - reads and returns one line at a time from a file descriptor.

@@ -102,6 +102,3 @@ Part 3 - Linked list:
 - `man 3` pages for libc behavior.
 - 42 Norminette documentation and local `norminette` command.
 - The local Libft subject PDF.
-
-AI was used to prepare the repository skeleton, checklist, and CI configuration.
-The exercise implementations should be written, tested, and explained manually.
