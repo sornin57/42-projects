@@ -10,6 +10,7 @@ Collection of 42 school projects by msornin, organized by circle.
   - `libft` - First custom C library with standard utility functions.
 - `cercle-01`
   - `get_next_line` - C function that reads one line at a time from a file descriptor.
+  - `ft_printf` - C library that recreates the basic behavior of `printf`.
 - `cercle-02` - Ready for future projects.
 - `cercle-03`
   - `call-me-maybe` - Python project around an LLM-style workflow and file processing.
@@ -25,7 +26,8 @@ Collection of 42 school projects by msornin, organized by circle.
 ├── cercle-00/
 │   └── libft/
 ├── cercle-01/
-│   └── get_next_line/
+│   ├── get_next_line/
+│   └── ft_printf/
 ├── cercle-02/
 ├── cercle-03/
 │   ├── call-me-maybe/
