@@ -30,6 +30,10 @@ Collection of 42 School projects by msornin, organized by language and circle.
 │   └── circle-01/
 └── Python/
     ├── circle-02/
+    │   └── Piscine_Python/
+    │       ├── Python00/
+    │       ├── Python01/
+    │       └── ...
     └── circle-03/
 ```
 
