@@ -1,8 +1,0 @@
-pwd
-whoami
-date
-uname -a
-cat /etc/os-release
-history
-man ls
-ls --help

@@ -1,3 +1,0 @@
-ERROR File not found
-ERROR Database connection failed
-ERROR Invalid password attempt
