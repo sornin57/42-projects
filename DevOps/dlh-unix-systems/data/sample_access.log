@@ -1,0 +1,10 @@
+192.168.1.100 - GET /index.html 200
+192.168.1.101 - GET /about.html 200
+192.168.1.100 - GET /contact.php 404
+192.168.1.102 - POST /login.php 200
+192.168.1.101 - GET /admin.php 403
+192.168.1.103 - GET /index.html 200
+192.168.1.104 - GET /products.html 200
+192.168.1.100 - POST /api/users 201
+192.168.1.105 - GET /missing.html 404
+192.168.1.106 - GET /admin.php 403

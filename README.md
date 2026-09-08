@@ -15,8 +15,12 @@ Collection of 42 School projects by msornin, organized by language and circle.
 ## Python
 
 - `Python/circle-03`
-  - `call-me-maybe` - Python project around an LLM-style workflow and file processing.
+  - `call-me-maybe` - Python project around workflow automation and file processing.
   - `fly-in` - Pathfinding and simulation project with maps and tests.
+
+## DevOps
+
+- `DevOps/dlh-unix-systems` - UNIX/Linux initiation module with notes, shell scripts, and log analysis exercises.
 
 ## Structure
 
@@ -28,10 +32,12 @@ Collection of 42 School projects by msornin, organized by language and circle.
 │   └── circle-01/
 │   │   ├── get_next_line/
 │   │   └── ft_printf/
-└── Python/
-    └── circle-03/
-        ├── call-me-maybe/
-        └── fly-in/
+├── Python/
+│   └── circle-03/
+│       ├── call-me-maybe/
+│       └── fly-in/
+└── DevOps/
+    └── dlh-unix-systems/
 ```
 
 ## Notes

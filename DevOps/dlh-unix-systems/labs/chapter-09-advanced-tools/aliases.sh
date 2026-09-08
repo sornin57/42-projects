@@ -1,0 +1,5 @@
+alias ll='ls -la'
+alias la='ls -A'
+alias gs='git status'
+alias gp='git push'
+alias grep='grep --color=auto'
