@@ -9,18 +9,17 @@ Collection of 42 School projects by msornin, organized by language and circle.
 - `C/circle-00`
   - `libft` - First custom C library with standard utility functions.
 - `C/circle-01`
-  - `get_next_line` - C function that reads one line at a time from a file descriptor.
-  - `ft_printf` - C library that recreates the basic behavior of `printf`.
+  - `get_next_line` - Function that reads one line at a time from a file descriptor.
+  - `ft_printf` - Custom implementation of basic `printf` behavior.
+  - `push_swap` - Sorting project, planned.
 
 ## Python
 
+- `Python/circle-02`
+  - `Piscine_Python` - Python fundamentals, module by module.
 - `Python/circle-03`
-  - `call-me-maybe` - Python project around workflow automation and file processing.
+  - `call-me-maybe` - Workflow automation and file processing project.
   - `fly-in` - Pathfinding and simulation project with maps and tests.
-
-## DevOps
-
-- `DevOps/dlh-unix-systems` - UNIX/Linux initiation module with notes, shell scripts, and log analysis exercises.
 
 ## Structure
 
@@ -28,19 +27,12 @@ Collection of 42 School projects by msornin, organized by language and circle.
 42-projects/
 ├── C/
 │   ├── circle-00/
-│   │   └── libft/
 │   └── circle-01/
-│   │   ├── get_next_line/
-│   │   └── ft_printf/
-├── Python/
-│   └── circle-03/
-│       ├── call-me-maybe/
-│       └── fly-in/
-└── DevOps/
-    └── dlh-unix-systems/
+└── Python/
+    ├── circle-02/
+    └── circle-03/
 ```
 
 ## Notes
 
-Each project keeps its own README and commands.
-Generated files such as virtual environments, caches, and Python bytecode are ignored.
+Each project keeps its own README and commands. Generated files such as virtual environments, caches, Python bytecode, object files, and compiled archives are ignored.
