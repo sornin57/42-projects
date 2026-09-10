@@ -2,39 +2,42 @@
 
 [![CI](https://github.com/sornin57/42-projects/actions/workflows/ci.yml/badge.svg)](https://github.com/sornin57/42-projects/actions/workflows/ci.yml)
 
-Collection of 42 School projects by msornin, organized by language and circle.
+Collection of 42 School projects by msornin, organized by topic.
 
 ## C
 
-- `C/circle-00`
-  - `libft` - First custom C library with standard utility functions.
-- `C/circle-01`
-  - `get_next_line` - Function that reads one line at a time from a file descriptor.
-  - `ft_printf` - Custom implementation of basic `printf` behavior.
-  - `push_swap` - Sorting project, planned.
+- `C/libft` - circle-00 - First custom C library with standard utility functions.
+- `C/get_next_line` - circle-01 - Function that reads one line at a time from a file descriptor.
+- `C/ft_printf` - circle-01 - Custom implementation of basic `printf` behavior.
+- `C/push_swap` - circle-01 - Sorting project, planned.
+- `C/codexion` - circle-03 - Thread synchronization project with mutexes and scheduling.
 
 ## Python
 
-- `Python/circle-02`
-  - `Piscine_Python` - Python fundamentals, module by module.
-- `Python/circle-03`
-  - `call-me-maybe` - Workflow automation and file processing project.
-  - `fly-in` - Pathfinding and simulation project with maps and tests.
+- `Python/Piscine_Python` - Python fundamentals, module by module.
+- `Python/call-me-maybe` - Workflow automation and file processing project.
+- `Python/fly-in` - Pathfinding and simulation project with maps and tests.
+
+## System
+
+- `System/Born2beroot` - Linux system administration project with a virtual machine and SSH connection from the local machine.
 
 ## Structure
 
 ```text
 42-projects/
 ├── C/
-│   ├── circle-00/
-│   └── circle-01/
-└── Python/
-    ├── circle-02/
-    │   └── Piscine_Python/
-    │       ├── Python00/
-    │       ├── Python01/
-    │       └── ...
-    └── circle-03/
+│   ├── libft/
+│   ├── get_next_line/
+│   ├── ft_printf/
+│   ├── push_swap/
+│   └── codexion/
+├── Python/
+│   ├── Piscine_Python/
+│   ├── call-me-maybe/
+│   └── fly-in/
+└── System/
+    └── Born2beroot/
 ```
 
 ## Notes
